@@ -19,7 +19,11 @@ Assignment Day 1
 
 •Installation
 
-  –Explain the installation and running process for the code (currently empty)
+  1. 먼저 git clone을 통해 복제해 준 후, cmd로 그 위치까지 이동합니다.
+2. 가상환경을 python -m venv 환경이름 으로 만들고 activate 한 후 다시 돌아옵니다.
+3-1. pip 업데이트 먼저 해줍니다.
+3-2. Pip install을 사용해서 opencv, tensorflow, keras, pillow, os 모듈들을 다운받습니다. 이때 opencv와 os를 받을때는 -python을 추가시켜줘야 제대로 된 다운로드가 가능합니다.
+4. 파이썬 코드 mainvideo.py를 실행할 시 훈련 모델 8LBMI2.h2를 읽으면서 프로그램이 돌아가집니다.
 
 •Presentation
 
