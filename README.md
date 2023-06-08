@@ -1,4 +1,6 @@
 # opensw23_DDDD
+![그림1](https://github.com/sungeu094/opensw23_DDDD/assets/127185696/f166a582-f557-4bec-8034-afa9bd5f58f8)
+
 
 
 #### Team Introduction
