@@ -25,13 +25,13 @@
 
   위를 변형한 안경 인식 딥러닝 시스템
   
-#### Analysis / Visualization
+## Analysis / Visualization
 
-#### Installization
+## Installization
  1. git clone을 통해 리포지토리(https://github.com/SeongMin2/COVID-19-Face-mask-detector) 복제.
  2. 파이썬 가상환경을 생성(python -m venv name) 후 활성화.
   - pip 업데이트.
   - pip를 이용하여 opencv, tensorflow, keras, pillow, os를 차례로 다운로드
  3. clone한 리포지토리 위치로 들어가 mainvideo.py 실행
 
-#### Presentation
+## Presentation
