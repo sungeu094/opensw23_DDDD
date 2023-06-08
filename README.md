@@ -20,6 +20,10 @@
   bach size를 80으로, epoch값을 160으로 조정해 학습시킴.
 
  - 시연 결과
+  기존 마스크 인식 딥러닝 시스템
+  ![KakaoTalk_20230601_234850036_01](https://github.com/sungeu094/opensw23_DDDD/assets/127185696/3631d250-8ae4-4dbf-a631-08332d491bd0)
+
+  위를 변형한 안경 인식 딥러닝 시스템
   
 #### Analysis / Visualization
 
