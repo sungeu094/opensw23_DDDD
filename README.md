@@ -65,5 +65,5 @@ https://github.com/sungeu094/opensw23_DDDD/assets/105763208/e3a56de8-b284-4bf9-9
  3. clone한 리포지토리 위치로 들어가 mainvideo.py 실행 (학습 모델 읽으며 install 됨)
 
 ## Presentation
+https://m.youtube.com/watch?v=Cv3sXb0Ubgs&feature=youtu.be
 
-https://m.youtube.com/watch?v=tl__-3SqDro&feature=youtu.be
