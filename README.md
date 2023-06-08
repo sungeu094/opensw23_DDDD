@@ -1,36 +1,31 @@
 # opensw23_DDDD
-Assignment Day 1
+---
 
+###### Team Introduction
+ - 202211246 강민우
+ - 202211309 성은우
+ - 202211334 이동훈
+ - 202211384 차민우
 
-•Creating a GutHub Page
-  –Set the name as opensw23-team_name
-  –Write everything on README.md
-•Team Introduction
-  –Include team member’s names, IDs, and roles
-    202211246 강민우(조장), 202211334 이동훈, 202211309 성은우, 202211384 차민우  -> (강민우, 이동훈 - > coding , 성은우, 차민우 - > support)
-•Topic Introduction
-  –Provide an overview of the chosen topic (currently empty)
-•Results
-  –Describe the representative results or findings (currently empty)
+###### Topic Introduction
+ 로코나 판데믹 상황에서 마스크 인식 여부를 파악하는 오픈소스 프로그램을 변형, 안경 착용 여부를 인식하는 딥러닝 시스템을 제작.
 
-•Analysis/Visualization
+ ###### Results
+ - 데이터셋 제작
+  기존 데이터셋을 변형하여 안경을 착용하고 있는 800여장의 이미지 데이터셋을 새로히 제작.
 
-  –Present any analysis or visualizations related to the topic (currently empty)
+ - 학습
+  bach size를 80으로, epoch값을 160으로 조정해 학습시킴.
 
-•Installation
+ - 시연 결과
+  
+###### Analysis / Visualization
 
-  1. 먼저 git clone을 통해 복제해 준 후, cmd로 그 위치까지 이동합니다.
-2. 가상환경을 python -m venv 환경이름 으로 만들고 activate 한 후 다시 돌아옵니다.
-3-1. pip 업데이트 먼저 해줍니다.
-3-2. Pip install을 사용해서 opencv, tensorflow, keras, pillow, os 모듈들을 다운받습니다. 이때 opencv와 os를 받을때는 -python을 추가시켜줘야 제대로 된 다운로드가 가능합니다.
-4. 파이썬 코드 mainvideo.py를 실행할 시 훈련 모델 8LBMI2.h2를 읽으면서 프로그램이 돌아가집니다.
+###### Installization
+ 1. git clone을 통해 리포지토리(https://github.com/SeongMin2/COVID-19-Face-mask-detector) 복제.
+ 2. 파이썬 가상환경을 생성(python -m venv name) 후 활성화.
+  - pip 업데이트.
+  - pip를 이용하여 opencv, tensorflow, keras, pillow, os를 차례로 다운로드
+ 3. clone한 리포지토리 위치로 들어가 mainvideo.py 실행
 
-•Presentation
-
-  –Insert the video link for the final presentation (currently empty)
-
- 
-
-•Submit the link to your repository to E-Campus.
-
-  –Please note that any late pushes or commits will receive zero credit.
+ ###### Presentation
