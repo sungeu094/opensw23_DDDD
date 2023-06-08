@@ -15,6 +15,15 @@
 ## Results
  - 데이터셋 제작
   기존의 이미지를 1차로 편집하여 얼굴 부분만 남도록 제작함. 1차로 가공한 데이터셋을 맨얼굴, 흐릿한 사진, 안경을 낀 사진으로 각각 구분하고 여러 안경의 형태를 고려해 4가지의 안경 이미지를 데이터셋에 합성하여 커스텀 데이터셋을 제작함.
+ 
+ ▶사진 가공 전 예시)
+ ![no_zoom_1](https://github.com/Chaminwoo/opensw23_DDDD/assets/105763208/c3be7655-af4b-4c6e-8f0d-be169afb7bc4)
+
+ ▶사진 가공 후 예시)
+ ![glasses_0](https://github.com/Chaminwoo/opensw23_DDDD/assets/105763208/afa78c12-4550-4cb2-bf1a-f11ac09ab4e4)
+
+ ▶안경 합성 후 예시)
+ ![glasses_0](https://github.com/Chaminwoo/opensw23_DDDD/assets/105763208/2e317a40-0060-451d-838e-aac0e287cd45)
 
  - 학습
   bach size를 80으로, epoch값을 160으로 조정해 학습시킴.
