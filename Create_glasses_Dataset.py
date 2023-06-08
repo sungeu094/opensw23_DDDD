@@ -13,7 +13,7 @@ withoutimgnum = len(os.listdir(without_dir))
 without_files = os.listdir(without_dir)
 
 
-for k in range(0,100):
+for k in range(300,500):
     count = k
     img = cv2.imread('train_data_2(recommand)/noglass_zoom/' + without_files[k], 1)
 
@@ -54,7 +54,7 @@ for k in range(0,100):
 
 
         img2 = Image.open('train_data_2(recommand)/noglass_zoom/' + without_files[k])
-        glasses_img = Image.open('glasses/glass4.png')
+        glasses_img = Image.open('glasses/glass_down2.png')
         width = glasses_img.width
         height = glasses_img.height
         width_ratio = 1.2

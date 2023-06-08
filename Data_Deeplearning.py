@@ -64,7 +64,7 @@ model.add(Dense(200, activation = 'relu'))
 model.add(Dense(2,activation = 'softmax'))
 
 model.compile(loss='binary_crossentropy',optimizer='Adam',metrics=['accuracy'])
-hist = model.fit(X_train, Y_train, batch_size=80, epochs=160)
+hist = model.fit(X_train, Y_train, batch_size=300, epochs=80)
 
 model.save('8LBMI3.h5')
 save_format='h5'
