@@ -16,14 +16,14 @@
  - 데이터셋 제작
   기존의 이미지를 1차로 편집하여 얼굴 부분만 남도록 제작함. 1차로 가공한 데이터셋을 맨얼굴, 흐릿한 사진, 안경을 낀 사진으로 각각 구분하고 여러 안경의 형태를 고려해 4가지의 안경 이미지를 데이터셋에 합성하여 커스텀 데이터셋을 제작함.
   
- ▶얼굴 편집 전 사진 예시)
- ![1](https://github.com/sungeu094/opensw23_DDDD/assets/105763208/ea70bdc4-b02c-488e-b7b6-45b00adc07a0)
+ ▶얼굴 편집 전 사진 예시)![1](https://github.com/sungeu094/opensw23_DDDD/assets/105763208/ea70bdc4-b02c-488e-b7b6-45b00adc07a0)
+ 
 
- ▶편집 후 사진 예시)
- ![2](https://github.com/sungeu094/opensw23_DDDD/assets/105763208/53636416-a783-44c3-a874-9f21f0c4c33a)
+ ▶편집 후 사진 예시)![2](https://github.com/sungeu094/opensw23_DDDD/assets/105763208/53636416-a783-44c3-a874-9f21f0c4c33a)
+ 
 
- ▶안경 합성 후 예시)
- ![3](https://github.com/sungeu094/opensw23_DDDD/assets/105763208/929af2cd-55d5-4aad-b97e-d375790263f8)
+ ▶안경 합성 후 예시)![3](https://github.com/sungeu094/opensw23_DDDD/assets/105763208/929af2cd-55d5-4aad-b97e-d375790263f8)
+ 
 
  - 학습
   bach size를 300으로, epoch값을 40으로 조정해 학습시킴.
@@ -43,8 +43,11 @@
 
 ## Analysis / Visualization
 
+https://github.com/sungeu094/opensw23_DDDD/assets/105763208/675f518d-7b48-49c0-931f-f542af8c116e
+
+
+
 ▶glasses video analysis
-![3](https://github.com/sungeu094/opensw23_DDDD/assets/105763208/05a36c67-4398-4d11-bf0e-1268dda5c781)
 
 ## Installization
  1. git clone을 통해 리포지토리(https://github.com/SeongMin2/COVID-19-Face-mask-detector) 복제.
